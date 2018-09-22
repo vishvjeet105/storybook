@@ -1,0 +1,44 @@
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 1000px;
+    .SideBar{
+        flex-basis: 20%;
+        background: dimgrey;
+        height: 100%;
+        overflow: scroll;
+    }
+    h3{
+        border: 1px solid;
+        border-radius: 4px;
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        color: aliceblue;
+    }
+    input{
+        margin-left:1%; 
+        width: 96%;
+    }
+    .MiddleView{
+        flex-basis: 80%;
+        background: blanchedalmond;
+        height: 100%;
+        overflow: scroll;
+    }
+    .Buttons{
+        font-size: 20px;
+        margin-top:5%; 
+        width: 50%;
+        border: none; 
+        border-color:dimgray; 
+        background: dimgray;
+        
+    }
+    li{
+        list-style-type:none;
+        margin-top: 2%; 
+        margin-left: 5%;
+    }
+}
